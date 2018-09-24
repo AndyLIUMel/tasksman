@@ -1,8 +1,9 @@
+dist: trusty
 language: php
 
 php:
   - 7.1.9
-  
+
 before_script:
   - cp .env.travis.example .env
   - composer install --no-interaction
@@ -11,3 +12,7 @@ before_script:
   - npm install --global yarn
   - yarn
   - npm run production
+ 
+ script:
+  - vendor/bin/phpunit
+  
