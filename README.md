@@ -1,6 +1,8 @@
 # tasksman
 
-A simple task management app
+https://travis-ci.org/AndyLIUMel/tasksman.svg?branch=master
+
+A simple task management app 
 
 ## Getting Started
 
