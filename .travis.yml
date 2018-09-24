@@ -12,7 +12,12 @@ before_script:
   - npm install --global yarn
   - yarn
   - npm run production
- 
- script:
+
+script:
   - vendor/bin/phpunit
   
+cache:
+  directories:
+    - $HOME/.yarn-cache
+    - node_modules
+    - vendor
