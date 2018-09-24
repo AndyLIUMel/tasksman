@@ -1,6 +1,6 @@
 # tasksman
 
-https://travis-ci.org/AndyLIUMel/tasksman.svg?branch=master
+![Travis Build Result](https://travis-ci.org/AndyLIUMel/tasksman.svg?branch=master)
 
 A simple task management app 
 
