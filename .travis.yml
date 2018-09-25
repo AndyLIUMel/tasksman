@@ -4,6 +4,9 @@ language: php
 php:
   - 7.1.9
 
+services:
+  - mysql
+
 before_script:
   - cp .env.travis.example .env
   - composer install --no-interaction
